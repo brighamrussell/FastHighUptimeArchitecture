@@ -1,0 +1,29 @@
+*** HIGH SPEED WEBSITES ***
+
+  A. Optimal speed requires thoughtfulness at every level from the operating system, DNS, network, front and backend archetecture, languages and databases used, care in coding, etc.
+  
+  B. Speed killers
+    1. Images that are not properly sized nor optimized, and in large numbers
+    2. High number of http requests
+    3. Inserting Javascript before HTML
+    4. Large number of bells and whistles
+    5. Network latency
+    6. Distance between server and user
+    7. Unmaintained databases
+    8. Non use of caching tools
+    9. Non use of CDN for static content
+    
+  C. High Speed Best Practices
+    1. Sparing use of images
+    2. Use correctly sized and optimized images
+    3. Limit number of HTTP requests
+    4. Put Javascript after HTML and CSS
+    5. Make sure only required CSS is in the CSS file
+    6. Minify both CSS and HTML
+    7. Compile Javascript when possible
+    8. Reduce dependencies such as jQuery as much as possible
+    9. Have servers on every continent where there is high usage
+    10. Use caching tools
+    11. Use a CDN to serve static content
+    12. Mainain databases so that only relavent data is stored on high io devices
+    13. Implement patches and updates regularly
