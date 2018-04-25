@@ -1,0 +1,13 @@
+*** ULTRA HIGH UPTIME ***
+
+A. Causes of Downtime
+  1. Changes of any kind, including updating code, host, DNS, network, etc.
+  2. Poor architecture, such as lack of redundancy / load ballancing
+  3. Attacks
+  4. Failure to keep things updates such as SSL certificate, domain registration, patches, etc.
+
+B. Uptime Best Practices
+  1. Design redundancy into everything
+  2. Always implement changes in a test environment before making changes to a production environment 
+  3. Set alerts to remind when subscriptions or certificates need to be updated
+  4. Monitor all applications, network connections, daemons, hardware, loads, and changes
