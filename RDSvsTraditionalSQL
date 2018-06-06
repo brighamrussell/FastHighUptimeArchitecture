@@ -1,0 +1,26 @@
+Amazon Web Services (AWS) Relational Database Service (RDS) vs Traditional Server Hosted SQL
+Pros and Cons of each
+
+RDS Pros
+- Can be very cost effective
+- Backups are automatic
+- Updates are automatic
+- Multi Data-Center / Availability Zone Redundancy
+- Virus protection
+- Better hardware
+- High Availability
+- High Scalability
+- 
+
+RDS Cons
+- Some advanced SQL features are not available, supported SQL features are listed here: 
+  http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_SQLServer.html
+- Date and time is set to UTC and is not changable
+- Backup and restores can only be done using the RDS backup, or from a scripted source (you can't just upload a DB dump)
+- You cannot just copy an RDS database from one to another, the entire RDS server would need to be cloned to a server of the same size
+- Build versions are limited
+- No admin level access to the RDS servers
+- Windows authentication is not available
+
+
+
