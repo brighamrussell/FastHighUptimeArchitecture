@@ -27,3 +27,12 @@
     11. Use a CDN to serve static content
     12. Mainain databases so that only relavent data is stored on high io devices
     13. Implement patches and updates regularly
+    
+  D. Databases / Data Storage
+    1. Use NoSQL databases when possible
+    2. Use a Relational Database Serivce (RDS) with Amazon ElastiCache or similar caching tool when NoSQL is not possible
+    3. Prune databases regularly so that old and unnecessary data does not needlessly buildup
+    4. Make sure databases are properly indexed to minimize unnecessary load
+    5. Make sure software that accesses databases run efficient queries and terminates when queries complete
+    6. Make sure that software and database are geographically close to each other, prefereable in the same datacenter
+    7. Make efficient use of master / slave architecture
